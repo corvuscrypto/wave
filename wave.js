@@ -41,10 +41,6 @@ WaveEffect.prototype = {
 }
   WaveEffect.prototype.rw = function(){
       var x = this.prev+ " radial-gradient(circle at "+this.wo[0]+"px "+this.wo[1]+"px,"+this.v+","+this.a+") "+this.r+"%,rgba(0,0,0,0) 0)";
-<<<<<<< HEAD
-=======
-      console.log(x)
->>>>>>> 3113f8da9ace6d2039a49b2bb86a90f75db2c409
       this.elem.style.background=x;
     }
   WaveEffect.prototype.doWave = function(){
