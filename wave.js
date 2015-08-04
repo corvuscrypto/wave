@@ -53,7 +53,7 @@ WaveEffect.prototype = {
             this.rw();
           }
   WaveEffect.prototype.fadeWave = function(){
-              document.removeEventListener(this.ltn);
+              document.removeEventListener("mouseup",this.ltn);
               if(this.a>0){
                 this.a-= this.ff*(1000/this.t)/60;
                 this.ft=setTimeout(this.fadeWave,16.67);
