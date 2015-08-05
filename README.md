@@ -1,5 +1,5 @@
 # wave.js
-This is a wave effect library for simulating the touch wave effect seen on mobile phones. It's fairly easy to use and I made it for personal use. However, please use it as your heart desires. Currently the library only supports modern browsers, but I'll change that later. To see the effect in action, download this library and open the example file in your browser.
+I couldn't sleep and so I decided to make something quick. This is a wave effect library for simulating the touch wave effect seen on mobile phones. It's fairly easy to use and I made it for personal use. However, please use it as your heart desires. Currently the library only supports modern browsers, but I'll change that later. To see the effect in action, download this library and open the example file in your browser.
 
 Currently the wave.js script allows you to modify the linear time to grow/fade the wave effect and the color (using hex, rgb, or hsl values). Examples of these are available in the example file provided. Here's a snippet if you're in a hurry:
 ```html
