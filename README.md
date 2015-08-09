@@ -8,7 +8,7 @@ Currently the wave.js script allows you to modify the linear time to grow/fade t
 </div>
 ```
 
-## How To
+## How To...
 To use the wave effect library, copy and paste this snippet into your pages:
 ```html
   <script src='path/to/scripts/wave.js'></script>
